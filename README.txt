@@ -1,7 +1,7 @@
 # README                                                                                                                      
               
 - Authors
-César E. Corona-González, Claudia Rebeca De Stefano-Ramos, Juan Pablo Rosado-Aíza, Luz María Alonso-Valerdi, David I. Ibarra-Zarate, Fabiola R Gómez-Velázquez
+César E. Corona-González, Claudia Rebeca De Stefano-Ramos, Juan Pablo Rosado-Aíza, Fabiola R Gómez-Velázquez, David I. Ibarra-Zarate, Luz María Alonso-Valerdi
 
 - Contact person                                                                                                          
 César E. Corona-González 
