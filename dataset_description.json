@@ -1,0 +1,29 @@
+{
+  "Authors": [
+    "Corona-González",
+    "César E.",
+    "De Stefano-Ramos",
+    "Claudia Rebeca",
+    "Rosado-Aíza",
+    "Juan Pablo",
+    "Alonso-Valerdi",
+    "Luz María",
+    "Ibarra-Zarate",
+    "David I.",
+    "Gómez-Velázquez",
+    "Fabiola R."
+  ],
+  "Name": "database_smartick",
+  "License": "CC0",
+  "ReferencesAndLinks": [
+    ""
+  ],
+  "BIDSVersion": "1.8.0",
+  "HEDVersion": "8.1.0",
+  "GeneratedBy": [
+    {
+      "Name": "bids-matlab-tools",
+      "Version": "10.2"
+    }
+  ]
+}
