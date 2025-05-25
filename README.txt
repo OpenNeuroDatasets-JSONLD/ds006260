@@ -16,6 +16,7 @@ Psychophysiological data from children with learning difficulties who strengthen
 2023
                                                                                                                     
 - Brief overview of the tasks in the experiment                                                                           
+
 The current dataset consists of psychological and electrophysiological evaluations aimed at assessing improvements in reading and math abilities resulting from the use of an online learning tool called Smartick. This platform was used by children with reading or math difficulties to help enhance their skills.
 
 The psychometric evaluations from children with reading difficulties encompassed: spelling tests, where 1) orthographic and 2) phonological errors were considered, 3) reading speed, expressed in words read per minute, and 4) reading comprehension, where multiple-choice questions were given to the children. The last 2 parameters were determined according to the standards from the Ministry of Public Education (Secretaría de Educación Pública (S.E.P.) in Spanish) in Mexico. On the other hand, group 2 assessments embraced: 1) a mathematics general knowledge test, 2) hits percentage, and (3) reaction time from an arithmetical task. Additionally, selective attention and intelligence quotient (IQ) were also evaluated.
