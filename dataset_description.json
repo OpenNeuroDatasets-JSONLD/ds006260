@@ -9,9 +9,7 @@
     ],
     "Name": "Dataset of psychophysiological data from children with learning difficulties who strengthen reading and math skills through assistive technology",
     "License": "CC0",
-    "ReferencesAndLinks": [
-        ""
-    ],
+    "ReferencesAndLinks": [],
     "BIDSVersion": "1.8.0",
     "HEDVersion": "8.1.0",
     "GeneratedBy": [
