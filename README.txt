@@ -1,29 +1,29 @@
 # README                                                                                                                      
               
-- Authors
+### Authors
 César E. Corona-González, Claudia Rebeca De Stefano-Ramos, Juan Pablo Rosado-Aíza, Fabiola R Gómez-Velázquez, David I. Ibarra-Zarate, Luz María Alonso-Valerdi
 
-- Contact person                                                                                                          
+###  Contact person                                                                                                          
 César E. Corona-González 
 https://orcid.org/0000-0002-7680-2953
 a00833959@tec.mx
 
-## Overview           
+###  Overview           
 - Project name
 Psychophysiological data from children with learning difficulties who strengthen reading and math skills by assistive technology
 
 - Year that the project ran
 2023
                                                                                                                     
-- Brief overview of the tasks in the experiment                                                                           
+###  Brief overview of the tasks in the experiment                                                                           
 
-The current dataset consists of psychological and electrophysiological evaluations aimed at assessing improvements in reading and math abilities resulting from the use of an online learning tool called Smartick. This platform was used by children with reading or math difficulties to help enhance their skills.
+The current dataset consists of psychological and electrophysiological evaluations aimed at assessing improvements in reading and math abilities resulting from using an online learning tool called Smartick. Children with reading or math difficulties used this platform to help enhance their skills.
 
-The psychometric evaluations from children with reading difficulties encompassed: spelling tests, where 1) orthographic and 2) phonological errors were considered, 3) reading speed, expressed in words read per minute, and 4) reading comprehension, where multiple-choice questions were given to the children. The last 2 parameters were determined according to the standards from the Ministry of Public Education (Secretaría de Educación Pública (S.E.P.) in Spanish) in Mexico. On the other hand, group 2 assessments embraced: 1) a mathematics general knowledge test, 2) hits percentage, and (3) reaction time from an arithmetical task. Additionally, selective attention and intelligence quotient (IQ) were also evaluated.
+The psychometric evaluations from children with reading difficulties encompassed: spelling tests, where 1) orthographic and 2) phonological errors were considered, 3) reading speed, expressed in words read per minute, and 4) reading comprehension, where multiple-choice questions were given to the children. The last 2 parameters were determined according to the standards from the Ministry of Public Education (Secretaría de Educación Pública (S.E.P.) in Spanish) in Mexico. On the other hand, group 2 assessments embraced: 1) a mathematics general knowledge test, 2) hits percentage, and 3) reaction time from an arithmetical task. Additionally, selective attention and intelligence quotient (IQ) were also evaluated.
 
 Then, individuals underwent an EEG experimental paradigm where two conditions were recorded: 1) a 3-minute eyes-open resting state and 2) performing either reading or mathematical activities. EEG recordings from the reading experiment consisted of reading a text aloud and then answering questions about the text. Alternatively, EEG recordings from the math experiment involved the solution of two blocks with 20 arithmetic operations (addition and subtraction). Subsequently, each child was randomly subcategorized as 1) the experimental group, who were asked to engage with Smartick for three months, and 2) the control group, who were not involved with the intervention. Once the 3-month period was over, every child was reassessed as described before.
                                                                                                     
-- Description of the contents of the dataset                                                                              
+###  Description of the contents of the dataset                                                                              
 
 The dataset contains a total of 76 subjects (sub-), where two study groups were assessed: 1) reading difficulties (R) and 2) math difficulties (M). Then, each individual was subcategorized as experimental subgroup (e), where children were compromised to engage with Smartick, or control subgroup, where they did not get involved with any intervention.
 
@@ -48,62 +48,62 @@ Example: the file "sub-Rc11_ses-1_task-SmartickDataset_run-2_eeg.set" is related
 - EEG recording from the PRE-intervention (ses-1) while performing the reading activity (run-2)
     
                                                                                                                   
-- Independent variables                                                                                                   
-Study groups:
+###  Independent variables                                                                                                   
+- Study groups:
 	- Reading difficulties.
 		- Control: children did not followed any intervention
 		- Experimental: children used the reading program of Smartick for 3 months
 	- Math difficulties
 		- Control: children did not followed any intervention
 		- Experimental: children used the math program of Smartick for 3 months
-Condition: 
+- Condition: 
 	- PRE-intervention: first psychological and electroencephalographic evaluation
 	- POST-invervention: second psychological and electroencephalographic evaluation
 
                                                                                      
-- Dependent variables                                                                                                     
-Psychometric data from the reading difficulties group:
-Orthographic_ERR: number of orthographic errors.
-Phonological_ERR: number of phonological errors.
-Selective_Attention: score from selective attention test.
-Reading_Speed: reading speed in words per minute.
-Comprehension: score in a reading comprehension tasks.
-GROUP: C for the control group, E for the experimental group.
-GENDER: M for male, F for Female.
-AGE: age at the beginning of the study.
-IQ: intelligence quotient.
+###  Dependent variables                                                                                                     
+- Psychometric data from the reading difficulties group:
+ - Orthographic_ERR: number of orthographic errors.
+ - Phonological_ERR: number of phonological errors.
+ - Selective_Attention: score from selective attention test.
+ - Reading_Speed: reading speed in words per minute.
+ - Comprehension: score in a reading comprehension tasks.
+ - GROUP: C for the control group, E for the experimental group.
+ - GENDER: M for male, F for Female.
+ - AGE: age at the beginning of the study.
+ - IQ: intelligence quotient.
 
-Psychometric data from the math difficulties group:
-WRAT4: score from the WRAT-4 test.
-hits: hits during the EEG acquisition [%].
-RT: reaction time during the EEG acquisition [s].
-Selective_Attention: score from selective attention test.
-GROUP: C for the control Group, E for the experimental group.
-GENDER: M for male, F for female.
-AGE: age at the beginning of the study.
-IQ: intelligence quotient.      
+- Psychometric data from the math difficulties group:
+ - WRAT4: score from the WRAT-4 test.
+ - hits: hits during the EEG acquisition [%].
+ - RT: reaction time during the EEG acquisition [s].
+ - Selective_Attention: score from selective attention test.
+ - GROUP: C for the control Group, E for the experimental group.
+ - GENDER: M for male, F for female.
+ - AGE: age at the beginning of the study.
+ - IQ: intelligence quotient.      
 
-Engagement percentage within Smartick (only for experimental group)
-These values represent the engagement percentage through Smartick. 
-Students were asked to get involved with the online method for learning for 3 months, 5 days a week. 
-Greater values than 100% denote participants regularly logged in more than 5 days weekly.
+- Engagement percentage within Smartick (only for experimental group)
+ - These values represent the engagement percentage through Smartick. 
+ - Students were asked to get involved with the online method for learning for 3 months, 5 days a week. 
+ - Greater values than 100% denote participants regularly logged in more than 5 days weekly.
                                                                                                                                                                                                      
-## Methods                                                                                                                    
-### Subjects                                                                                                                  
+###  Methods                                                                                                                    
+## Subjects                                                                                                                  
 Seventy-six Mexican children between 7 and 13 years old were enrolled in this study. 
 
 - Information about the recruitment procedure
 The sample was recruited through non-profit foundations that support learning and foster care programs. 
                                                                                    
-### Apparatus                                                                                                                 
+## Apparatus                                                                                                                 
 g.USBamp RESEARCH amplifier
                                                                                                       
-### Initial setup                                                                                                             
+## Initial setup                                                                                                             
 1. Explain the task to the participant.
 2. Sign informed consent.
 3. Set up electrodes.
 
-### Task details                                                                                                              
+## Task details                                                                                                              
 The "stimuli" nested folder contains all stimuli employed in the EEG experiments. 
 
 Level 1. 
