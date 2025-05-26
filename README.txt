@@ -109,36 +109,35 @@ g.USBamp RESEARCH amplifier
 ### Task details                                                                                                              
 The "stimuli" nested folder contains all stimuli employed in the EEG experiments. 
 
-*Level 1.*
-    - Math: Images used in the math experiment.​​​​​​​
-    - Reading: Images used in the reading experiment.
+**Level 1**
+- Math: Images used in the math experiment.​​​​​​​
+- Reading: Images used in the reading experiment.
 
-*Level 2.*
+**Level 2**
+- Math
+    * POST-Operations: arithmetic operations from the POST-intervention.        
+    * PRE-Operations: arithmetic operations from the PRE-intervention.
+- Reading
+    * POST_Reading1: text 1 and text-related comprehension questions from the POST-intervention.
+    * POST_Reading2: text 2 and text-related comprehension questions from the POST-intervention.
+    * POST_Reading3: text 3 and text-related comprehension questions from the POST-intervention.
+    * PRE_Reading1: text 1 and text-related comprehension questions from the PRE-intervention.
+    * PRE_Reading2: text 2 and text-related comprehension questions from the PRE-intervention.
+    * PRE_Reading3: text 3 and text-related comprehension questions from the PRE-intervention.
 
-    - Math
-        * POST-Operations: arithmetic operations from the POST-intervention.        
-        * PRE-Operations: arithmetic operations from the PRE-intervention.
-    - Reading
-        * POST_Reading1: text 1 and text-related comprehension questions from the POST-intervention.
-        * POST_Reading2: text 2 and text-related comprehension questions from the POST-intervention.
-        * POST_Reading3: text 3 and text-related comprehension questions from the POST-intervention.
-	* PRE_Reading1: text 1 and text-related comprehension questions from the PRE-intervention.
-	* PRE_Reading2: text 2 and text-related comprehension questions from the PRE-intervention.
-	* PRE_Reading3: text 3 and text-related comprehension questions from the PRE-intervention.
+**Level 3**
+- Math
+    * "Operation01.jpg" to "Operation20.jpg": arithmetical operations solved during the first block of the math EEG experiment.
+    * "Operation21.jpg" to "Operation40.jpg": arithmetical operations solved during the second block of the math EEG experiment.
+    * Experiment_Start.jpeg: start of the experiment.
+    * Experiment_End.jpeg: end of the experiment.
+    * End_Block_1.jpeg: break between blocks.
 
-*Level 3.*
-    - Math
-	* "Operation01.jpg" to "Operation20.jpg": arithmetical operations solved during the first block of the math EEG experiment.
-	* "Operation21.jpg" to "Operation40.jpg": arithmetical operations solved during the second block of the math EEG experiment.
-	* Experiment_Start.jpeg: start of the experiment.
-	* Experiment_End.jpeg: end of the experiment.
-	* End_Block_1.jpeg: break between blocks.
-
-    - Reading
-	*Q1.png: first question.
-	* Q2.png: second question.
-	* Q3.png: third question.
-	* Reading1, Reading2, or Reading3: texts from the reading EEG experiment. 
+- Reading
+    * Q1.png: first question.
+    * Q2.png: second question.
+    * Q3.png: third question.
+    * Reading1, Reading2, or Reading3: texts from the reading EEG experiment. 
 
 The files "3. Reading_Tags.xlsx" and "4. Math_Tags.xlsx" provide the following information:
 - Order: number for better event accommodation.
@@ -158,9 +157,9 @@ Tecnologico de Monterrey. Av. Eugenio Garza Sada 2501 Sur, Tecnologico, 64849 Mo
 ### Missing data                                                                                                              
 The file "2. EEG Data Descriptor.xlsx" describes the data availability for EEG recordings. Some cells are highlighted to indicate some situations:
 Yellow cells mean that the quality of the EEG signals is inconsistent. However, EEG files were included for EEG preprocessing purposes. Additionally, EEG events for these files were not exported.
-Red cells imply that data is not available due to technical problems when running the experiment and saving the data.                                                                                    
+Red cells imply that data is not available due to technical problems during the experiment's run and saving.                                                                                    
 
 ### Notes                                                                                                                     
-EEG signals were filtered online with a bandpass filter from 0.1-100 Hz.
-The electrode O2 showed technical issues during the EEG experiment. The authors suggest interpolation of this electrode
+EEG signals were filtered online with a 0.1-100 Hz bandpass filter.
+The electrode O2 showed technical issues during the EEG experiment. The authors suggest the interpolation of this electrode
                                                                            
