@@ -1,21 +1,20 @@
 # README                                                                                                                      
               
-### Authors
+## Authors
 César E. Corona-González, Claudia Rebeca De Stefano-Ramos, Juan Pablo Rosado-Aíza, Fabiola R Gómez-Velázquez, David I. Ibarra-Zarate, Luz María Alonso-Valerdi
 
-###  Contact person                                                                                                          
+##  Contact person                                                                                                          
 César E. Corona-González 
 https://orcid.org/0000-0002-7680-2953
 a00833959@tec.mx
 
-###  Overview           
-- Project name
+## Project name
 Psychophysiological data from children with learning difficulties who strengthen reading and math skills by assistive technology
 
-- Year that the project ran
+## Year that the project ran
 2023
                                                                                                                     
-###  Brief overview of the tasks in the experiment                                                                           
+##  Brief overview of the tasks in the experiment                                                                           
 
 The current dataset consists of psychological and electrophysiological evaluations aimed at assessing improvements in reading and math abilities resulting from using an online learning tool called Smartick. Children with reading or math difficulties used this platform to help enhance their skills.
 
@@ -23,7 +22,7 @@ The psychometric evaluations from children with reading difficulties encompassed
 
 Then, individuals underwent an EEG experimental paradigm where two conditions were recorded: 1) a 3-minute eyes-open resting state and 2) performing either reading or mathematical activities. EEG recordings from the reading experiment consisted of reading a text aloud and then answering questions about the text. Alternatively, EEG recordings from the math experiment involved the solution of two blocks with 20 arithmetic operations (addition and subtraction). Subsequently, each child was randomly subcategorized as 1) the experimental group, who were asked to engage with Smartick for three months, and 2) the control group, who were not involved with the intervention. Once the 3-month period was over, every child was reassessed as described before.
                                                                                                     
-###  Description of the contents of the dataset                                                                              
+##  Description of the contents of the dataset                                                                              
 
 The dataset contains a total of 76 subjects (sub-), where two study groups were assessed: 1) reading difficulties (R) and 2) math difficulties (M). Then, each individual was subcategorized as experimental subgroup (e), where children were compromised to engage with Smartick, or control subgroup, where they did not get involved with any intervention.
 
@@ -31,17 +30,17 @@ Every subject was followed up on for three months. During this period, each subj
 
 The EEG recordings from the reading difficulties group consisted of a resting state condition (run-1) and while performing active reading and reading comprehension activities (run-2). On the other hand, EEG data from the math difficulties group was collected from a resting state condition and when solving two blocks of 20 arithmetic operations (run-2 and run-3). All EEG files were stored in .set format. The nomenclature and description from filenames are shown below:
 
-Nomenclature	Description
-sub-		Subject
-M		Math group
-R		Reading group
-c		Control subgroup
-e		Experimental subgroup
-ses-1		PRE-intervention
-ses-2		POST-Intervention
-run-1		EEG for baseline 
-run-2		EEG for reading paradigm or the first block of math
-run-3		EEG for the second block of math 
+**Nomenclature**	**Description**
+sub-		        Subject
+M		                Math group
+R		                Reading group
+c		                Control subgroup
+e		                Experimental subgroup
+ses-1		        PRE-intervention
+ses-2		        POST-Intervention
+run-1		        EEG for baseline 
+run-2		        EEG for reading paradigm, or the first block of math
+run-3		        EEG for the second block of math 
 
 Example: the file "sub-Rc11_ses-1_task-SmartickDataset_run-2_eeg.set" is related to:
 - The 11th subject from the reading difficulties group, control subgroup (sub-Rc11).
