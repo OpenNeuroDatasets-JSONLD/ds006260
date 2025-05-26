@@ -9,7 +9,9 @@
     ],
     "Name": "Dataset of psychophysiological data from children with learning difficulties who strengthen reading and math skills through assistive technology",
     "License": "CC0",
-    "ReferencesAndLinks": [],
+    "ReferencesAndLinks": [
+        "[1] Secretaría de Educación Pública. (2012). Manual de Procedimientos para el Fomento y la Valoración de la Competencia Lectora en el Aula. https://rarchivoszona33.files.wordpress.com/2012/10/manual_fomento.pdf"
+    ],
     "BIDSVersion": "1.8.0",
     "HEDVersion": "8.1.0",
     "GeneratedBy": [
