@@ -141,7 +141,7 @@ The *stimuli* nested folder contains all stimuli employed in the EEG experiments
     * Q3.png: third question.
     * Reading1, Reading2, or Reading3: texts from the reading EEG experiment. 
 
-The files *3. Reading_Tags.xlsx* and *4. Math_Tags.xlsx* provide the following information:
+**The files *3. Reading_Tags.xlsx* and *4. Math_Tags.xlsx* provide the following information:**
 - Order: number for better event accommodation.
 - Event: tag in EEG file.
 - Subject: Subject identifier
