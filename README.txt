@@ -34,18 +34,18 @@ Every subject was followed up on for three months. During this period, each subj
 
 The EEG recordings from the reading difficulties group consisted of a resting state condition (run-1) and while performing active reading and reading comprehension activities (run-2). On the other hand, EEG data from the math difficulties group was collected from a resting state condition and when solving two blocks of 20 arithmetic operations (run-2 and run-3). All EEG files were stored in .set format. The nomenclature and description from filenames are shown below:
 
-|      Nomenclature        |        Description              |
-|------------------------------  |---------------------------         | 
-|              sub-                 |           Subject                   |
-|                M                   |       Math group               |
-|                R                    |    Reading group             |
-|              c                      |    Control subgroup        |
-|              e                      |  Experimental subgroup|
-|              ses-1            |    PRE-intervention  |
-|              ses-2            | POST-Intervention  |
-|              run-1           |  EEG for baseline     |
-|              run-2           |  EEG for reading paradigm, or the first block of math|
-|              run-3           |  EEG for the second block of math|
+|      Nomenclature          |        Description              |
+|--------------------------------  |---------------------------         | 
+|              sub-                    |            Subject                   |
+|                M                      |       Math group               |
+|                R                       |    Reading group             |
+|              c                          |    Control subgroup        |
+|              e                          |  Experimental subgroup|
+|              ses-1                   |    PRE-intervention  |
+|              ses-2                   | POST-Intervention  |
+|              run-1                  |  EEG for baseline     |
+|              run-2                  |  EEG for reading paradigm, or the first block of math|
+|              run-3                  |  EEG for the second block of math|
 
 Example: the file "sub-Rc11_ses-1_task-SmartickDataset_run-2_eeg.set" is related to:
 - The 11th subject from the reading difficulties group, control subgroup (sub-Rc11).
