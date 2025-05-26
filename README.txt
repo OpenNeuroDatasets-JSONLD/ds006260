@@ -87,9 +87,9 @@ Example: the file *"sub-Rc11_ses-1_task-SmartickDataset_run-2_eeg.set"* is relat
    * IQ: intelligence quotient.      
 
 - *Engagement percentage within Smartick (only for experimental group)*
- * These values represent the engagement percentage through Smartick. 
- * Students were asked to get involved with the online method for learning for 3 months, 5 days a week. 
- * Greater values than 100% denote participants who regularly logged in more than 5 days weekly.
+    * These values represent the engagement percentage through Smartick. 
+    * Students were asked to get involved with the online method for learning for 3 months, 5 days a week. 
+    * Greater values than 100% denote participants who regularly logged in more than 5 days weekly.
                                                                                                                                                                                                      
 ##  Methods                                                                                                                    
 ### Subjects                                                                                                                  
@@ -114,6 +114,7 @@ The "stimuli" nested folder contains all stimuli employed in the EEG experiments
     - Reading: Images used in the reading experiment.
 
 *Level 2.*
+
     - Math
         * POST-Operations: arithmetic operations from the POST-intervention.        
         * PRE-Operations: arithmetic operations from the PRE-intervention.
@@ -133,7 +134,7 @@ The "stimuli" nested folder contains all stimuli employed in the EEG experiments
 	* Experiment_End.jpeg: end of the experiment.
 	* End_Block_1.jpeg: break between blocks.
 
-- Reading
+    - Reading
 	*Q1.png: first question.
 	* Q2.png: second question.
 	* Q3.png: third question.
