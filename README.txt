@@ -34,7 +34,7 @@ Every subject was followed up on for three months. During this period, each subj
 
 The EEG recordings from the reading difficulties group consisted of a *resting state condition* **(run-1)** and while performing *active reading and reading comprehension activities* **(run-2)**. On the other hand, EEG data from the math difficulties group was collected from a *resting state condition* **(run-1)** and when *solving two blocks of 20 arithmetic operations* **(run-2 and run-3)**. All EEG files were stored in .set format. The nomenclature and description from filenames are shown below:
 
-|      Nomenclature          |        Description              |
+| Nomenclature             |   Description              |
 |--------------------------------  |---------------------------         | 
 |              sub-                    |            Subject                   |
 |                M                      |       Math group               |
@@ -66,79 +66,78 @@ Example: the file *"sub-Rc11_ses-1_task-SmartickDataset_run-2_eeg.set"* is relat
                                                                
 ##  Dependent variables                                                                                                     
 - *Psychometric data from the reading difficulties group*:
- * Orthographic_ERR: number of orthographic errors.
- * Phonological_ERR: number of phonological errors.
- * Selective_Attention: score from selective attention test.
- * Reading_Speed: reading speed in words per minute.
- * Comprehension: score in a reading comprehension tasks.
- * GROUP: C for the control group, E for the experimental group.
- * GENDER: M for male, F for Female.
- * AGE: age at the beginning of the study.
- * IQ: intelligence quotient.
+   * Orthographic_ERR: number of orthographic errors.
+   * Phonological_ERR: number of phonological errors.
+   * Selective_Attention: score from selective attention test.
+   * Reading_Speed: reading speed in words per minute.
+   * Comprehension: score in a reading comprehension tasks.
+   * GROUP: C for the control group, E for the experimental group.
+   * GENDER: M for male, F for Female.
+   * AGE: age at the beginning of the study.
+   * IQ: intelligence quotient.
 
 - *Psychometric data from the math difficulties group*:
- * WRAT4: score from the WRAT-4 test.
- * hits: hits during the EEG acquisition [%].
- * RT: reaction time during the EEG acquisition [s].
- * Selective_Attention: score from selective attention test.
- * GROUP: C for the control Group, E for the experimental group.
- * GENDER: M for male, F for female.
- * AGE: age at the beginning of the study.
- * IQ: intelligence quotient.      
+   * WRAT4: score from the WRAT-4 test.
+   * hits: hits during the EEG acquisition [%].
+   * RT: reaction time during the EEG acquisition [s].
+   * Selective_Attention: score from the selective attention test.
+   * GROUP: C for the control Group, E for the experimental group.
+   * GENDER: M for male, F for female.
+   * AGE: age at the beginning of the study.
+   * IQ: intelligence quotient.      
 
 - *Engagement percentage within Smartick (only for experimental group)*
  * These values represent the engagement percentage through Smartick. 
  * Students were asked to get involved with the online method for learning for 3 months, 5 days a week. 
- * Greater values than 100% denote participants regularly logged in more than 5 days weekly.
+ * Greater values than 100% denote participants who regularly logged in more than 5 days weekly.
                                                                                                                                                                                                      
-###  Methods                                                                                                                    
-## Subjects                                                                                                                  
+##  Methods                                                                                                                    
+### Subjects                                                                                                                  
 Seventy-six Mexican children between 7 and 13 years old were enrolled in this study. 
 
-- Information about the recruitment procedure
+### Information about the recruitment procedure
 The sample was recruited through non-profit foundations that support learning and foster care programs. 
                                                                                    
-## Apparatus                                                                                                                 
+### Apparatus                                                                                                                 
 g.USBamp RESEARCH amplifier
                                                                                                       
-## Initial setup                                                                                                             
+### Initial setup                                                                                                             
 1. Explain the task to the participant.
 2. Sign informed consent.
 3. Set up electrodes.
 
-## Task details                                                                                                              
+### Task details                                                                                                              
 The "stimuli" nested folder contains all stimuli employed in the EEG experiments. 
 
-Level 1. 
-	- Math: Images used in the math experiment.​​​​​​​
-	- Reading: Images used in the reading experiment.
+*Level 1.*
+    - Math: Images used in the math experiment.​​​​​​​
+    - Reading: Images used in the reading experiment.
 
-Level 2.
-* Math
-	- POST-Operations: arithmetic operations from the POST-intervention.
-	- PRE-Operations: arithmetic operations from the PRE-intervention.
-* Reading
+*Level 2.*
+    - Math
+        * POST-Operations: arithmetic operations from the POST-intervention.        
+        * PRE-Operations: arithmetic operations from the PRE-intervention.
+    - Reading
+        * POST_Reading1: text 1 and text-related comprehension questions from the POST-intervention.
+        * POST_Reading2: text 2 and text-related comprehension questions from the POST-intervention.
+        * POST_Reading3: text 3 and text-related comprehension questions from the POST-intervention.
+	* PRE_Reading1: text 1 and text-related comprehension questions from the PRE-intervention.
+	* PRE_Reading2: text 2 and text-related comprehension questions from the PRE-intervention.
+	* PRE_Reading3: text 3 and text-related comprehension questions from the PRE-intervention.
 
-	- POST_Reading1: text 1 and text-related comprehension questions from the POST-intervention.
-	- POST_Reading2: text 2 and text-related comprehension questions from the POST-intervention.
-	- POST_Reading3: text 3 and text-related comprehension questions from the POST-intervention.
-	- PRE_Reading1: text 1 and text-related comprehension questions from the PRE-intervention.
-	- PRE_Reading2: text 2 and text-related comprehension questions from the PRE-intervention.
-	- PRE_Reading3: text 3 and text-related comprehension questions from the PRE-intervention.
+*Level 3.*
+    - Math
+	* "Operation01.jpg" to "Operation20.jpg": arithmetical operations solved during the first block of the math EEG experiment.
+	* "Operation21.jpg" to "Operation40.jpg": arithmetical operations solved during the second block of the math EEG experiment.
+	* Experiment_Start.jpeg: start of the experiment.
+	* Experiment_End.jpeg: end of the experiment.
+	* End_Block_1.jpeg: break between blocks.
 
-Level 3.
-* Math
-	- "Operation01.jpg" to "Operation20.jpg": arithmetical operations solved during the first block of the math EEG experiment.
-	- "Operation21.jpg" to "Operation40.jpg": arithmetical operations solved during the second block of the math EEG experiment.
-	- Experiment_Start.jpeg: start of the experiment.
-	- Experiment_End.jpeg: end of the experiment.
-	- End_Block_1.jpeg: break between blocks.
-
-* Reading
-	- Q1.png: first question.
-	- Q2.png: second question.
-	- Q3.png: third question.
-	- Reading1, Reading2, or Reading3: texts from the reading EEG experiment. 
+- Reading
+	*Q1.png: first question.
+	* Q2.png: second question.
+	* Q3.png: third question.
+	* Reading1, Reading2, or Reading3: texts from the reading EEG experiment. 
 
 The files "3. Reading_Tags.xlsx" and "4. Math_Tags.xlsx" provide the following information:
 - Order: number for better event accommodation.
@@ -146,11 +145,11 @@ The files "3. Reading_Tags.xlsx" and "4. Math_Tags.xlsx" provide the following i
 - Subject: Subject identifier
 - Intervention: PRE (ses-1) or POST (ses-1).
 - Reading/Block: task identifier tag.
-	- "R1", "R2", and "R3" indicates which reading was assigned to each participant.
-	- "1" and "2" for the blocks of math experiment. 
+	* "R1", "R2", and "R3" indicates which reading was assigned to each participant.
+	* "1" and "2" for the blocks of math experiment. 
 - Group: control or experimental.
 - Description: event tag meaning.
-- Question shown (PRE): there are no event tags for questions in the PRE-EEG. intervention. Question sequences were registered manually. 
+- Question shown (PRE): There are no event tags for questions in the PRE-EEG. intervention. Question sequences were registered manually. 
 
 ### Experimental location                                                                                                     
 Tecnologico de Monterrey. Av. Eugenio Garza Sada 2501 Sur, Tecnologico, 64849 Monterrey, N.L., Mexico.
