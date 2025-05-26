@@ -6,9 +6,7 @@ César E. Corona-González, Claudia Rebeca De Stefano-Ramos, Juan Pablo Rosado-A
 ##  Contact person                                                                                                          
 César E. Corona-González
 
- 
-https://orcid.org/0000-0002-7680-2953
-
+ https://orcid.org/0000-0002-7680-2953
 
 a00833959@tec.mx
 
