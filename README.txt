@@ -54,43 +54,42 @@ Example: the file *"sub-Rc11_ses-1_task-SmartickDataset_run-2_eeg.set"* is relat
                                                                                                                   
 ##  Independent variables                                                                                                   
 - Study groups:
-    + Reading difficulties.
-          * Control: children did not follow any intervention
-	  * Experimental: children used the reading program of Smartick for 3 months
+    + Reading difficulties
+      * Control: children did not follow any intervention
+      * Experimental: children used the reading program of Smartick for 3 months
     + Math difficulties
           * Control: children did not follow any intervention
 	  * Experimental: children used the math program of Smartick for 3 months
 - Condition: 
     + PRE-intervention: first psychological and electroencephalographic evaluation
     + POST-invervention: second psychological and electroencephalographic evaluation
-
-                                                                                     
+                                                               
 ##  Dependent variables                                                                                                     
-- Psychometric data from the reading difficulties group:
- - Orthographic_ERR: number of orthographic errors.
- - Phonological_ERR: number of phonological errors.
- - Selective_Attention: score from selective attention test.
- - Reading_Speed: reading speed in words per minute.
- - Comprehension: score in a reading comprehension tasks.
- - GROUP: C for the control group, E for the experimental group.
- - GENDER: M for male, F for Female.
- - AGE: age at the beginning of the study.
- - IQ: intelligence quotient.
+- *Psychometric data from the reading difficulties group*:
+ * Orthographic_ERR: number of orthographic errors.
+ * Phonological_ERR: number of phonological errors.
+ * Selective_Attention: score from selective attention test.
+ * Reading_Speed: reading speed in words per minute.
+ * Comprehension: score in a reading comprehension tasks.
+ * GROUP: C for the control group, E for the experimental group.
+ * GENDER: M for male, F for Female.
+ * AGE: age at the beginning of the study.
+ * IQ: intelligence quotient.
 
-- Psychometric data from the math difficulties group:
- - WRAT4: score from the WRAT-4 test.
- - hits: hits during the EEG acquisition [%].
- - RT: reaction time during the EEG acquisition [s].
- - Selective_Attention: score from selective attention test.
- - GROUP: C for the control Group, E for the experimental group.
- - GENDER: M for male, F for female.
- - AGE: age at the beginning of the study.
- - IQ: intelligence quotient.      
+- *Psychometric data from the math difficulties group*:
+ * WRAT4: score from the WRAT-4 test.
+ * hits: hits during the EEG acquisition [%].
+ * RT: reaction time during the EEG acquisition [s].
+ * Selective_Attention: score from selective attention test.
+ * GROUP: C for the control Group, E for the experimental group.
+ * GENDER: M for male, F for female.
+ * AGE: age at the beginning of the study.
+ * IQ: intelligence quotient.      
 
-- Engagement percentage within Smartick (only for experimental group)
- - These values represent the engagement percentage through Smartick. 
- - Students were asked to get involved with the online method for learning for 3 months, 5 days a week. 
- - Greater values than 100% denote participants regularly logged in more than 5 days weekly.
+- *Engagement percentage within Smartick (only for experimental group)*
+ * These values represent the engagement percentage through Smartick. 
+ * Students were asked to get involved with the online method for learning for 3 months, 5 days a week. 
+ * Greater values than 100% denote participants regularly logged in more than 5 days weekly.
                                                                                                                                                                                                      
 ###  Methods                                                                                                                    
 ## Subjects                                                                                                                  
