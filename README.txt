@@ -54,21 +54,21 @@ Example: the file *"sub-Rc11_ses-1_task-SmartickDataset_run-2_eeg.set"* is relat
 - Study groups:
     + Reading difficulties
       * Control: children did not follow any intervention
-      * Experimental: children used the reading program of Smartick for 3 months
+      * Experimental: Children used the reading program of Smartick for 3 months
     + Math difficulties
         * Control: children did not follow any intervention
-        * Experimental: children used the math program of Smartick for 3 months
+        * Experimental: Children used the math program of Smartick for 3 months
 - Condition: 
     + PRE-intervention: first psychological and electroencephalographic evaluation
-    + POST-invervention: second psychological and electroencephalographic evaluation
+    + POST-intervention: second psychological and electroencephalographic evaluation
                                                                
 ##  Dependent variables                                                                                                     
 - *Psychometric data from the reading difficulties group*:
    * Orthographic_ERR: number of orthographic errors.
    * Phonological_ERR: number of phonological errors.
-   * Selective_Attention: score from selective attention test.
+   * Selective_Attention: score from the selective attention test.
    * Reading_Speed: reading speed in words per minute.
-   * Comprehension: score in a reading comprehension tasks.
+   * Comprehension: score on a reading comprehension task.
    * GROUP: C for the control group, E for the experimental group.
    * GENDER: M for male, F for Female.
    * AGE: age at the beginning of the study.
@@ -113,8 +113,8 @@ The "stimuli" nested folder contains all stimuli employed in the EEG experiments
 
 **Level 2**
 - Math
-    * POST-Operations: arithmetic operations from the POST-intervention.        
-    * PRE-Operations: arithmetic operations from the PRE-intervention.
+    * POST_Operations: arithmetic operations from the POST-intervention.        
+    * PRE_Operations: arithmetic operations from the PRE-intervention.
 - Reading
     * POST_Reading1: text 1 and text-related comprehension questions from the POST-intervention.
     * POST_Reading2: text 2 and text-related comprehension questions from the POST-intervention.
@@ -141,7 +141,7 @@ The files "3. Reading_Tags.xlsx" and "4. Math_Tags.xlsx" provide the following i
 - Order: number for better event accommodation.
 - Event: tag in EEG file.
 - Subject: Subject identifier
-- Intervention: PRE (ses-1) or POST (ses-1).
+- Intervention: PRE (ses-1) or POST (ses-2).
 - Reading/Block: task identifier tag.
 	* "R1", "R2", and "R3" indicates which reading was assigned to each participant.
 	* "1" and "2" for the blocks of the math experiment. 
@@ -153,9 +153,9 @@ The files "3. Reading_Tags.xlsx" and "4. Math_Tags.xlsx" provide the following i
 Tecnologico de Monterrey. Av. Eugenio Garza Sada 2501 Sur, Tecnologico, 64849 Monterrey, N.L., Mexico.
                                                                           
 ### Missing data                                                                                                              
-The file "2. EEG Data Descriptor.xlsx" describes the data availability for EEG recordings. Some cells are highlighted to indicate some situations:
+The file *"2. EEG Data Descriptor.xlsx"* describes the data availability for EEG recordings. Some cells are highlighted to indicate some situations:
 Yellow cells mean that the quality of the EEG signals is inconsistent. However, EEG files were included for EEG preprocessing purposes. Additionally, EEG events for these files were not exported.
-Red cells imply that data is not available due to technical problems during the experiment's run and saving.                                                                                    
+Red cells imply that data is unavailable due to technical problems during the experiment's run and saving.                                                                                    
 
 ### Notes                                                                                                                     
 EEG signals were filtered online with a 0.1-100 Hz bandpass filter.
