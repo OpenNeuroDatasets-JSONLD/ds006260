@@ -158,8 +158,8 @@ Tecnologico de Monterrey. Av. Eugenio Garza Sada 2501 Sur, Tecnologico, 64849 Mo
                                                                           
 ### Missing data                                                                                                              
 The file **2. EEG Data Descriptor.xlsx** describes the data availability for EEG recordings. Some cells are highlighted to indicate some situations:
-Yellow cells mean that the quality of the EEG signals is inconsistent. However, EEG files were included for EEG preprocessing purposes. Additionally, EEG events for these files were not exported.
-Red cells imply that data is unavailable due to technical problems during the experiment's run and saving.                                                                                    
+    - Yellow cells mean that the quality of the EEG signals is inconsistent. However, EEG files were included for EEG preprocessing purposes. Additionally, EEG events for these files were not exported.
+    - Red cells imply that data is unavailable due to technical problems during the experiment's run and saving.                                                                                    
 
 ### Notes                                                                                                                     
 EEG signals were filtered online with a 0.1-100 Hz bandpass filter.
