@@ -34,8 +34,9 @@ Every subject was followed up on for three months. During this period, each subj
 
 The EEG recordings from the reading difficulties group consisted of a resting state condition (run-1) and while performing active reading and reading comprehension activities (run-2). On the other hand, EEG data from the math difficulties group was collected from a resting state condition and when solving two blocks of 20 arithmetic operations (run-2 and run-3). All EEG files were stored in .set format. The nomenclature and description from filenames are shown below:
 
-**Nomenclature**_	**Description**_
-sub-_		        Subject_
+Nomenclature	Description
+
+sub-		        Subject
 M_		                Math group_
 R_		                Reading group_
 c_		                Control subgroup_
