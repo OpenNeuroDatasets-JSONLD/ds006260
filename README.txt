@@ -147,7 +147,7 @@ The files "3. Reading_Tags.xlsx" and "4. Math_Tags.xlsx" provide the following i
 - Intervention: PRE (ses-1) or POST (ses-1).
 - Reading/Block: task identifier tag.
 	* "R1", "R2", and "R3" indicates which reading was assigned to each participant.
-	* "1" and "2" for the blocks of math experiment. 
+	* "1" and "2" for the blocks of the math experiment. 
 - Group: control or experimental.
 - Description: event tag meaning.
 - Question shown (PRE): There are no event tags for questions in the PRE-EEG. intervention. Question sequences were registered manually. 
