@@ -28,11 +28,11 @@ Then, individuals underwent an EEG experimental paradigm where two conditions we
                                                                                                     
 ##  Description of the contents of the dataset                                                                              
 
-The dataset contains a total of 76 *subjects* **(sub-)**, where two study groups were assessed: 1) **reading difficulties** *(R)* and 2) **math difficulties** *(M)*. Then, each individual was subcategorized as experimental subgroup (e), where children were compromised to engage with Smartick, or control subgroup, where they did not get involved with any intervention.
+The dataset contains a total of 76 *subjects* **(sub-)**, where two study groups were assessed: 1) *reading difficulties* **(R)** and 2) *math difficulties* **(M)**. Then, each individual was subcategorized as *experimental subgroup* **(e)**, where children were compromised to engage with Smartick, or *control subgroup*  **(c)**, where they did not get involved with any intervention.
 
-Every subject was followed up on for three months. During this period, each subject underwent two EEG sessions, representing the PRE-intervention (ses-1) and the POST-intervention (ses-2). 
+Every subject was followed up on for three months. During this period, each subject underwent two EEG sessions, representing the *PRE-intervention* **(ses-1)** and the *POST-intervention* **(ses-2)**. 
 
-The EEG recordings from the reading difficulties group consisted of a resting state condition (run-1) and while performing active reading and reading comprehension activities (run-2). On the other hand, EEG data from the math difficulties group was collected from a resting state condition and when solving two blocks of 20 arithmetic operations (run-2 and run-3). All EEG files were stored in .set format. The nomenclature and description from filenames are shown below:
+The EEG recordings from the reading difficulties group consisted of a *resting state condition* **(run-1)** and while performing *active reading and reading comprehension activities* **(run-2)**. On the other hand, EEG data from the math difficulties group was collected from a *resting state condition* **(run-1)** and when *solving two blocks of 20 arithmetic operations* **(run-2 and run-3)**. All EEG files were stored in .set format. The nomenclature and description from filenames are shown below:
 
 |      Nomenclature          |        Description              |
 |--------------------------------  |---------------------------         | 
@@ -47,25 +47,25 @@ The EEG recordings from the reading difficulties group consisted of a resting st
 |              run-2                  |  EEG for reading paradigm, or the first block of math|
 |              run-3                  |  EEG for the second block of math|
 
-Example: the file "sub-Rc11_ses-1_task-SmartickDataset_run-2_eeg.set" is related to:
+Example: the file *"sub-Rc11_ses-1_task-SmartickDataset_run-2_eeg.set"* is related to:
 - The 11th subject from the reading difficulties group, control subgroup (sub-Rc11).
 - EEG recording from the PRE-intervention (ses-1) while performing the reading activity (run-2)
     
                                                                                                                   
-###  Independent variables                                                                                                   
+##  Independent variables                                                                                                   
 - Study groups:
-	- Reading difficulties.
-		- Control: children did not followed any intervention
-		- Experimental: children used the reading program of Smartick for 3 months
-	- Math difficulties
-		- Control: children did not followed any intervention
-		- Experimental: children used the math program of Smartick for 3 months
+    + Reading difficulties.
+        * Control: children did not follow any intervention
+	* Experimental: children used the reading program of Smartick for 3 months
+    + Math difficulties
+        * Control: children did not follow any intervention
+	* Experimental: children used the math program of Smartick for 3 months
 - Condition: 
-	- PRE-intervention: first psychological and electroencephalographic evaluation
-	- POST-invervention: second psychological and electroencephalographic evaluation
+    + PRE-intervention: first psychological and electroencephalographic evaluation
+    + POST-invervention: second psychological and electroencephalographic evaluation
 
                                                                                      
-###  Dependent variables                                                                                                     
+##  Dependent variables                                                                                                     
 - Psychometric data from the reading difficulties group:
  - Orthographic_ERR: number of orthographic errors.
  - Phonological_ERR: number of phonological errors.
