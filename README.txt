@@ -28,7 +28,7 @@ Then, individuals underwent an EEG experimental paradigm where two conditions we
                                                                                                     
 ##  Description of the contents of the dataset                                                                              
 
-The dataset contains a total of 76 subjects (sub-), where two study groups were assessed: 1) reading difficulties (R) and 2) math difficulties (M). Then, each individual was subcategorized as experimental subgroup (e), where children were compromised to engage with Smartick, or control subgroup, where they did not get involved with any intervention.
+The dataset contains a total of 76 *subjects* **(sub-)**, where two study groups were assessed: 1) **reading difficulties** *(R)* and 2) **math difficulties** *(M)*. Then, each individual was subcategorized as experimental subgroup (e), where children were compromised to engage with Smartick, or control subgroup, where they did not get involved with any intervention.
 
 Every subject was followed up on for three months. During this period, each subject underwent two EEG sessions, representing the PRE-intervention (ses-1) and the POST-intervention (ses-2). 
 
