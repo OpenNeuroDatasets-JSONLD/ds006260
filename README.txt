@@ -58,8 +58,8 @@ Example: the file *"sub-Rc11_ses-1_task-SmartickDataset_run-2_eeg.set"* is relat
       * Control: children did not follow any intervention
       * Experimental: children used the reading program of Smartick for 3 months
     + Math difficulties
-          * Control: children did not follow any intervention
-	  * Experimental: children used the math program of Smartick for 3 months
+        * Control: children did not follow any intervention
+        * Experimental: children used the math program of Smartick for 3 months
 - Condition: 
     + PRE-intervention: first psychological and electroencephalographic evaluation
     + POST-invervention: second psychological and electroencephalographic evaluation
